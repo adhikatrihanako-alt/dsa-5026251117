@@ -20,9 +20,9 @@ public class Main {
             int units = sc.nextInt();
 
             if (type.equalsIgnoreCase("LAPTOP")) {
-                rentals[i] = new LaptopRental(id, days, units);
+                rentals[i] = new LaptopRental(id, days);
             } else {
-                rentals[i] = new ProjectorRental(id, days, units);
+                rentals[i] = new ProjectorRental(id, days);
             }
         }
         sc.close();
